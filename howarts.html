@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hogwarts</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <header>
+        <h1>BIENVENIDO A HOGWARTS</h1>
+    </header>
+    
+
+    <div id="formulario">
+        <form action="" class="center">
+            <label for="">Nombre</label>
+            <input type="text" placeholder="Ingresa tu nombre" id="nombre" class="transparencia">
+            <label for="">Edad</label>
+            <input type="text" placeholder="Ingresa tu edad" id="edad" class="transparencia">
+            <label for="">Familia</label>
+            <input type="text" placeholder="Ingresa tu familia" id="familia" class="transparencia">
+            <label for="">Linaje</label>
+            <select name="linaje" id="linaje" class="transparencia">
+                <option value=""></option>
+                <option value="mestizo">Mestizo</option>
+                <option value="sangre pura">Sangre pura</option>
+                <option value="muggle">Muggle</option>
+            </select>
+            <label for="">Cualidades</label>
+            <select name="cualidades" id="cualidades" class="transparencia">
+                <option value=""></option>
+                <option value="Gryffindor">Valor, Fuerza, Audacia</option>
+                <option value="Hufflepuff">Justicia, Lealtad, Paciencia</option>
+                <option value="Ravenclaw">Creatividad, Erudición, Inteligencia</option>
+                <option value="Slytherin">Ambición, Determinación, Astucia</option>
+            </select>
+            <button onclick="calcular()" id="enviar" class="transparencia">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>

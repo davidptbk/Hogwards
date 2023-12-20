@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+*{
+    width: 100%;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+
+
+}
+body{
+    background-image: url(images/shining-hogwarts-castle-0l1zadf1d7g92cai.webp);
+    image-rendering: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#formulario{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+   
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 10px;
+    
+}
+.transparencia{
+    background-color: transparent;
+    border: solid 1px white;
+}
+#enviar{
+    border-radius: 35%;
+    width: 100px;
+    align-self: center;
+}
+#enviar:hover{
+    cursor: pointer;
+    
+}
